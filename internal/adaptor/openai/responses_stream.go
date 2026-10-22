@@ -5,8 +5,8 @@
 package openai
 
 import (
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // responsesEvent 是一条 Responses 流式载荷（各 `type` 取用各自字段；未用字段忽略）。

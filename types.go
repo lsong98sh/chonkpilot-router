@@ -5,7 +5,7 @@
 // 而不反向 import 根包 —— 消除 `router → internal/adaptor → router` 的 import 环。
 package router
 
-import "github.com/chonkpilot/chonkpilot-router/internal/canon"
+import "github.com/lsong98sh/chonkpilot-router/internal/canon"
 
 type (
 	// Role / Message / Part / ImagePart：canonical 消息模型。

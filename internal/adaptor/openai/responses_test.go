@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // baseResponsesSpec 是给假端点用的 responses provider 配置（base 含版本段 → 端点 /v1/responses）。

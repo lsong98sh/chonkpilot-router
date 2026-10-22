@@ -28,7 +28,7 @@
 //
 // 无环：`internal/adaptor/**` 只依赖 `internal/canon`，**不 import 根包**；根包反之依赖 adaptor
 // 层装配适配器 —— 方向单向（`router → internal/adaptor → internal/canon`），无 import 环
-// （取证：`go list -deps ./internal/adaptor/...` 不含 `github.com/chonkpilot/chonkpilot-router`）。
+// （取证：`go list -deps ./internal/adaptor/...` 不含 `github.com/lsong98sh/chonkpilot-router`）。
 //
 // 与 data 的关系（2026-09-22 用户定案：**转换层归 llm，router 不访问 data**）：
 // llm 层从 data 读出 ChatMsg（拼接 / 组装）→ 转成 router canonical → 交给 router；

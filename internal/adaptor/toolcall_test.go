@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // addFixtureToolCalls 把一条 OpenAI 兼容流式载荷里的 tool_calls 增量喂给聚合器（按 index）。

@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor/anthropic"
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor/echo"
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor/openai"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor/anthropic"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor/echo"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor/openai"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // builtinFallback 是**内置兜底 provider**（D-30）：协议 echo（不发 HTTP、回显最后一条真实用户消息）。

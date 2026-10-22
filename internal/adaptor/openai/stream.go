@@ -2,8 +2,8 @@
 package openai
 
 import (
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // chatChunk 是一条流式载荷（也兼容「忽略 stream=true 的单发响应」：choices[].message）。

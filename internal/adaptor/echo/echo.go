@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // 系统注入消息的 Kind（与 llm 侧 isTurnBoundary 同口径）：非「真实用户消息」，不参与回显取文。

@@ -18,7 +18,7 @@
 // 适配器在自己的 `Stream` 入口调用本函数；返回 nil 表示请求已按 caps 可发。
 package adaptor
 
-import "github.com/chonkpilot/chonkpilot-router/internal/canon"
+import "github.com/lsong98sh/chonkpilot-router/internal/canon"
 
 // Degrade 按 caps 检查并就地剔除（软）请求中不支持的能力；硬不支持 → 返回分类错误。
 // req 为适配器 `Stream` 的**入参副本**（canon.Request 按值传入），故就地清零不会影响调用方。

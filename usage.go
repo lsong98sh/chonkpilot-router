@@ -21,7 +21,7 @@
 // 的处理一致，指针化只会把不确定性扩散到整个 canonical 层。
 package router
 
-import "github.com/chonkpilot/chonkpilot-router/internal/canon"
+import "github.com/lsong98sh/chonkpilot-router/internal/canon"
 
 // Usage 是一次「一次调用」的 token 统计（字段 0 = 上游未提供；映射表见文件头）。
 type Usage = canon.Usage

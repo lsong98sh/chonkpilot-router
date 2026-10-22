@@ -6,7 +6,7 @@ package router
 import (
 	"testing"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // 编译期取证：`func(router.X) X` 与 `func(canon.X) canon.X` 是同一函数类型 —— 仅当两侧是**同一

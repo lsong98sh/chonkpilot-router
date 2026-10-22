@@ -18,7 +18,7 @@
 // 唯一例外是 `TotalTokens`：上游未提供（0）而分项非零时**由分项求和补齐**（确定性推导，不引入不确定值）。
 package adaptor
 
-import "github.com/chonkpilot/chonkpilot-router/internal/canon"
+import "github.com/lsong98sh/chonkpilot-router/internal/canon"
 
 // NormalizeUsage 把各协议 usage 的分项归一到 canonical `Usage`。
 //

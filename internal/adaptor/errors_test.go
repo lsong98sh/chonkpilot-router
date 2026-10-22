@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // TestErrorMessage：JSON（error 对象 / error 串 / message / detail）与非 JSON 兜底。

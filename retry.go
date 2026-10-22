@@ -28,8 +28,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // transparentRetryMax 是**单次 `Call`** 内允许的透明重发次数上限（口径：≤1 次）。

@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // 超时回落默认（对齐 llm 侧既有口径 ResponseTimeout / StreamTimeout；LR-11 接线时由 llm 把

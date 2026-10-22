@@ -15,7 +15,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // responsesRequest 是 POST /responses 的请求体。

@@ -24,7 +24,7 @@ package adaptor
 import (
 	"context"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // Adapter 是协议适配器契约（router 根包的适配器表按本接口持有与分派）。

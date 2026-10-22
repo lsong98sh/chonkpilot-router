@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // errorBodyLimit 是错误响应体的读取上限（错误信息足够可读即可，避免异常大体积兜底页）。

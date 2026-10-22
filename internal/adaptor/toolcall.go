@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // emptyArguments 是「无参数工具调用」的定稿值（模型可能一个 arguments 分片都不发）。

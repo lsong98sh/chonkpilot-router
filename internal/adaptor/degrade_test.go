@@ -4,7 +4,7 @@ package adaptor
 import (
 	"testing"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // fullCaps 是全能力矩阵（什么都不降级）。

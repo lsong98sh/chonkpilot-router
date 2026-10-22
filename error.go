@@ -8,7 +8,7 @@ package router
 import (
 	"time"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // ErrorKind 是统一错误分类（可重试：network / timeout / rate_limit / server；不可重试：auth /

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // runStream 跑一次 Stream 并收集事件（Stream 返回后关闭通道）。

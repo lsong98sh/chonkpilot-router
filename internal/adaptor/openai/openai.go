@@ -30,8 +30,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // Options 是适配器构造选项。

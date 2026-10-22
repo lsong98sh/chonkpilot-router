@@ -33,8 +33,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/adaptor"
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/adaptor"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // Responses 流式事件的 `type` 取值（OpenAI / DeepSeek 官方口径）。

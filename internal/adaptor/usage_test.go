@@ -4,7 +4,7 @@ package adaptor
 import (
 	"testing"
 
-	"github.com/chonkpilot/chonkpilot-router/internal/canon"
+	"github.com/lsong98sh/chonkpilot-router/internal/canon"
 )
 
 // TestNormalizeUsage：字段映射 + total 缺失求和 + 缺失字段一律 0。
