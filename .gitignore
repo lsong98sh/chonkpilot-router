@@ -1,0 +1,30 @@
+# 构建产物
+/bin/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 覆盖率 / 性能
+coverage.out
+*.cover
+*.prof
+
+# 依赖（如启用 vendor）
+vendor/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 本地环境与密钥
+.env
+.env.*
+*.local
